@@ -1,0 +1,53 @@
+---
+title: "Özgür Haberler"
+subtitle: "Gerçeğin Peşinde, Kalemin İzinde"
+page-layout: full
+---
+
+::: {{.hero-banner}}
+# Özgür Haberler'e Hoş Geldiniz
+
+**Gerçeğin Peşinde, Kalemin İzinde** sloganıyla yola çıkan Özgür Haberler, tarafsız ve güvenilir habercilik anlayışını benimser.
+:::
+
+## 🔥 Son Dakika Haberleri
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+### [📊 Yapay Zeka Yayınları: Küresel Analiz](posts/veri-analizi.qmd)
+Dünya genelinde yapay zeka konusundaki akademik yayınların analizi ve veri görselleştirmesi. R ile kapsamlı analiz.
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### [Araçtan Çöp Attı, 4800 TL Ceza Yedi!](posts/cop-ceza-haberi.qmd)
+Trafikte çevre kirliliğine geçit yok! Seyir halindeyken yere çöp atan sürücüye 4800 TL para cezası kesildi.
+:::
+:::
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+### [Üst Komşusuna Tatlı Götürdü, Hastaneye Kaldırıldı!](posts/tatli-zehirlenme.qmd)
+Komşuluk ilişkilerinin dramatik geliştiği olayda, ev yapımı tatlıyı yiyen kişi zehirlenme şüphesiyle hastaneye kaldırıldı.
+:::
+::: {.g-col-12 .g-col-md-4}
+### [İşe Yeni Girmişti, İş Sahte Çıktı!](posts/sahte-is-ilani.qmd)
+İstanbul'da bir genç, sahte iş ilanıyla dolandırıldı. Uzmanlardan dijital güvenlik uyarısı.
+:::
+::: {.g-col-12 .g-col-md-4}
+### [Kediyi Konuşuyor Sandı, Karakola Şikâyet Etti!](posts/konusan-kedi.qmd)
+Kadıköy'de sarhoş vatandaş kedinin konuştuğunu iddia ederek karakola şikâyet etti.
+:::
+:::
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+### [Kan Vermeye Gitti, İkiz Kardeşini Buldu!](posts/ikiz-kardes-buldu.qmd)
+Kan bağışına giden genç kadın, hastane veri tabanında genetik eşleşme sonucu hiç tanımadığı ikiz kardeşini buldu.
+:::
+:::
+
+## 📈 Site İstatistikleri
+
+- **Toplam Haber:** 6
+- **Kategoriler:** 8  
+- **Bu Ay:** 6 yeni haber
+- **Son Güncelleme:** 21 Haziran 2025

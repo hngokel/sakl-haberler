@@ -1,0 +1,5 @@
+---
+title: "Kategori Sayfası"
+listing:
+  contents: ../
+---

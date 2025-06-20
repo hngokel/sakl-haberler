@@ -1,0 +1,63 @@
+project:
+  type: website
+
+website:
+  title: "Özgür Haberler"
+  favicon: images/logo.png
+
+  navbar:
+    logo: "images/logo.png"
+    title: false
+    left:
+      - text: "Ana Sayfa"
+        file: index.qmd
+      - text: "Haberler"
+        menu:
+          - text: "Tüm Haberler"
+            file: posts/index.qmd
+          - text: "Suç ve Ceza"
+            file: posts/suc-ceza/index.qmd
+          - text: "Sağlık"
+            file: posts/saglik/index.qmd
+      - text: "Hakkında"
+        file: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/hngokel
+      - icon: instagram
+        href: https://www.instagram.com/hatice_nuveyba/
+      - icon: moon
+        id: theme-toggle
+        href: "#"
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    include-after-body: |
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const btn = document.getElementById('theme-toggle');
+          if (btn) {
+            const html = document.documentElement;
+            function setTheme(theme) {
+              html.setAttribute('data-bs-theme', theme);
+              localStorage.setItem('theme', theme);
+              const icon = btn.querySelector('i');
+              if (icon) {
+                icon.className = theme === 'dark' ? 'bi-sun-fill' : 'bi-moon-fill';
+              }
+            }
+            btn.addEventListener('click', function(e) {
+              e.preventDefault();
+              const current = html.getAttribute('data-bs-theme') || 'light';
+              setTheme(current === 'dark' ? 'light' : 'dark');
+            });
+            const saved = localStorage.getItem('theme') || 'light';
+            setTheme(saved);
+          }
+        });
+      </script>
